@@ -1,0 +1,201 @@
+[ {
+  "uid" : "afaa8a0d6c04a943",
+  "name" : "verifyLastViewedProductAddedToTheList",
+  "time" : {
+    "start" : 1639003667990,
+    "stop" : 1639003785565,
+    "duration" : 117575
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c64f41812aaf9949",
+  "name" : "verifyTotalPriceOfTwoProductsIsCorrect",
+  "time" : {
+    "start" : 1639003027489,
+    "stop" : 1639003228407,
+    "duration" : 200918
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "63a442af580935b1",
+  "name" : "verifyAddProductFunctionality",
+  "time" : {
+    "start" : 1639003232482,
+    "stop" : 1639003313424,
+    "duration" : 80942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d47b51f1c5d73c4c",
+  "name" : "verifyUserCantBuyProductWithInvalidData",
+  "time" : {
+    "start" : 1639002809212,
+    "stop" : 1639003022927,
+    "duration" : 213715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe230bb0c5f333f4",
+  "name" : "verifyThatProductInformationIsSimilar",
+  "time" : {
+    "start" : 1639003529827,
+    "stop" : 1639003649911,
+    "duration" : 120084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a835298ef8ad516b",
+  "name" : "verifySideMenuModalOpensAndCloses",
+  "time" : {
+    "start" : 1639003800221,
+    "stop" : 1639003849214,
+    "duration" : 48993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fce167d5a5849a7",
+  "name" : "verifyLoginValidationTest",
+  "time" : {
+    "start" : 1639003386650,
+    "stop" : 1639003439110,
+    "duration" : 52460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1df402a0fa9acbe",
+  "name" : "verifyReturnToHomePage",
+  "time" : {
+    "start" : 1639003439158,
+    "stop" : 1639003511265,
+    "duration" : 72107
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "11872d07b80f606c",
+  "name" : "verifyThatProductsArePresentedInNotebookCategory",
+  "time" : {
+    "start" : 1639003606795,
+    "stop" : 1639003676743,
+    "duration" : 69948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f6277b10543e503",
+  "name" : "verifyThatProductsArePresentedInTVAccessoriesCategory",
+  "time" : {
+    "start" : 1639003697310,
+    "stop" : 1639003789995,
+    "duration" : 92685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b047e32100f16126",
+  "name" : "verifyAddingProductToComparison",
+  "time" : {
+    "start" : 1639003132445,
+    "stop" : 1639003300115,
+    "duration" : 167670
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3101b1737f709f55",
+  "name" : "verifyCheapToExpensiveSorting",
+  "time" : {
+    "start" : 1639003858394,
+    "stop" : 1639003969204,
+    "duration" : 110810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16d146d46cb91e6a",
+  "name" : "verifyOrderingProducts",
+  "time" : {
+    "start" : 1639003478141,
+    "stop" : 1639003593377,
+    "duration" : 115236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dae69bea277e2f25",
+  "name" : "verifyChangingTown",
+  "time" : {
+    "start" : 1639002808134,
+    "stop" : 1639002808150,
+    "duration" : 16
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "d187f8254d69d0f9",
+  "name" : "verifyUserCanFilterProducts",
+  "time" : {
+    "start" : 1639003313486,
+    "stop" : 1639003462647,
+    "duration" : 149161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25d6d6a41403a4ad",
+  "name" : "verifyXiaomiWillBeInSearchResult",
+  "time" : {
+    "start" : 1639003797902,
+    "stop" : 1639003860282,
+    "duration" : 62380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "651a14576faaf4bc",
+  "name" : "verifyChangingProductCountAndRemovingFromBasket",
+  "time" : {
+    "start" : 1639002809228,
+    "stop" : 1639003007130,
+    "duration" : 197902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b0e48b0dce475dc",
+  "name" : "verifySearchHistoryText",
+  "time" : {
+    "start" : 1639003870638,
+    "stop" : 1639003925999,
+    "duration" : 55361
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f92d8c9e8bacc69",
+  "name" : "verifyThatCatalogOpensAndCloses",
+  "time" : {
+    "start" : 1639003029784,
+    "stop" : 1639003117319,
+    "duration" : 87535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf63aa4f847cdfa1",
+  "name" : "verifyUserCanChangeLanguage",
+  "time" : {
+    "start" : 1639003324295,
+    "stop" : 1639003376144,
+    "duration" : 51849
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

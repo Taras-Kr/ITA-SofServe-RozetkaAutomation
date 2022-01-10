@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Lv-630-TAQC-Java-RozetkaAutomation]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="classes" name="All Tests Group(failed)" verbose="0">
+    <classes>
+      <class name="com.ss.ita.rozetka.test.BasketTest">
+        <methods>
+          <include name="verifyTotalPriceOfTwoProductsIsCorrect"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.ss.ita.rozetka.test.BasketTest -->
+      <class name="com.ss.ita.rozetka.test.ProductPageWithProductTest">
+        <methods>
+          <include name="verifyThatProductInformationIsSimilar"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.ss.ita.rozetka.test.ProductPageWithProductTest -->
+      <class name="com.ss.ita.rozetka.test.NavigationTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="verifyReturnToHomePage"/>
+        </methods>
+      </class> <!-- com.ss.ita.rozetka.test.NavigationTest -->
+      <class name="com.ss.ita.rozetka.test.SearchFunctionalityTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="verifySearchHistoryText"/>
+        </methods>
+      </class> <!-- com.ss.ita.rozetka.test.SearchFunctionalityTest -->
+      <class name="com.ss.ita.rozetka.test.FilterTest">
+        <methods>
+          <include name="verifyFilteredProductsAmountIsCorrect"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.ss.ita.rozetka.test.FilterTest -->
+      <class name="com.ss.ita.rozetka.test.ComparisonTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+          <include name="verifyAddingProductToComparison"/>
+        </methods>
+      </class> <!-- com.ss.ita.rozetka.test.ComparisonTest -->
+      <class name="com.ss.ita.rozetka.test.RecentlyViewedProductsTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyProductAddedOnlyOnce"/>
+          <include name="setBrowser"/>
+          <include name="verifyLastViewedProductAddedToTheList"/>
+        </methods>
+      </class> <!-- com.ss.ita.rozetka.test.RecentlyViewedProductsTest -->
+    </classes>
+  </test> <!-- All Tests Group(failed) -->
+</suite> <!-- Failed suite [Lv-630-TAQC-Java-RozetkaAutomation] -->

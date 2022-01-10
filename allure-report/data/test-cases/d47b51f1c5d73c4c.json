@@ -1,0 +1,385 @@
+{
+  "uid" : "d47b51f1c5d73c4c",
+  "name" : "verifyUserCantBuyProductWithInvalidData",
+  "fullName" : "com.ss.ita.rozetka.test.BuyProductTest.verifyUserCantBuyProductWithInvalidData",
+  "historyId" : "5a1208d3ae0ef7c5a66ee88cc243e0e4",
+  "time" : {
+    "start" : 1639002809212,
+    "stop" : 1639003022927,
+    "duration" : 213715
+  },
+  "description" : "Verify that system does not allow user to buy product with invalid data",
+  "descriptionHtml" : "<p>Verify that system does not allow user to buy product with invalid data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1639002808822,
+      "stop" : 1639002809119,
+      "duration" : 297
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that system does not allow user to buy product with invalid data",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "HomePage: open Rozetka home page",
+      "time" : {
+        "start" : 1639002810087,
+        "stop" : 1639002876893,
+        "duration" : 66806
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Header: change language to UA",
+      "time" : {
+        "start" : 1639002876932,
+        "stop" : 1639002904764,
+        "duration" : 27832
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "language",
+        "value" : "UA"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Header: open home page",
+      "time" : {
+        "start" : 1639002904765,
+        "stop" : 1639002909492,
+        "duration" : 4727
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "HomePage: open category NOTEBOOKS_AND_COMPUTERS(computers-notebooks)",
+      "time" : {
+        "start" : 1639002915769,
+        "stop" : 1639002917949,
+        "duration" : 2180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "category",
+        "value" : "NOTEBOOKS_AND_COMPUTERS(computers-notebooks)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductCategoryPage: open product type page by category NOTEBOOKS_CATEGORY(c80004)",
+      "time" : {
+        "start" : 1639002917953,
+        "stop" : 1639002947995,
+        "duration" : 30042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "categoryOrSubCategory",
+        "value" : "NOTEBOOKS_CATEGORY(c80004)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductTypePage: open product page by product number 1",
+      "time" : {
+        "start" : 1639002947996,
+        "stop" : 1639002970767,
+        "duration" : 22771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productNumber",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductPage: add product to basket",
+      "time" : {
+        "start" : 1639002970768,
+        "stop" : 1639002995029,
+        "duration" : 24261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: order products added to basket",
+      "time" : {
+        "start" : 1639002995029,
+        "stop" : 1639003009554,
+        "duration" : 14525
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "OrderingPage: set TestUserSurname, TestUserPhone, 093123456",
+      "time" : {
+        "start" : 1639003009555,
+        "stop" : 1639003020772,
+        "duration" : 11217
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "OrderingPage: set TestUserSurname",
+        "time" : {
+          "start" : 1639003009558,
+          "stop" : 1639003019141,
+          "duration" : 9583
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "surname",
+          "value" : "TestUserSurname"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "OrderingPage: set TestUserPhone",
+        "time" : {
+          "start" : 1639003019144,
+          "stop" : 1639003019935,
+          "duration" : 791
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "TestUserPhone"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "OrderingPage: set 093123456",
+        "time" : {
+          "start" : 1639003019938,
+          "stop" : 1639003020772,
+          "duration" : 834
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "phoneNumber",
+          "value" : "093123456"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "TestUserSurname"
+      }, {
+        "name" : "name",
+        "value" : "TestUserPhone"
+      }, {
+        "name" : "phoneNumber",
+        "value" : "093123456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "OrderingPage: get surname error message",
+      "time" : {
+        "start" : 1639003020775,
+        "stop" : 1639003020904,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "OrderingPage: get name error message",
+      "time" : {
+        "start" : 1639003020907,
+        "stop" : 1639003021042,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "OrderingPage: get phoneNumber error message",
+      "time" : {
+        "start" : 1639003021042,
+        "stop" : 1639003021447,
+        "duration" : 405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "OrderingPage: confirm ordering",
+      "time" : {
+        "start" : 1639003021456,
+        "stop" : 1639003022895,
+        "duration" : 1439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1639003022963,
+      "stop" : 1639003029751,
+      "duration" : 6788
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ss.ita.rozetka.test.BuyProductTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ss.ita.rozetka.test.BuyProductTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUserCantBuyProductWithInvalidData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Lv-630-TAQC-Java-RozetkaAutomation"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests Group"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ss.ita.rozetka.test.BuyProductTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UK1UHLE"
+  }, {
+    "name" : "thread",
+    "value" : "9180@DESKTOP-UK1UHLE.TestNG-test=All Tests Group-2(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LVTAQC630-38",
+    "url" : "https://jira.softserve.academy/browse/LVTAQC630-38",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d47b51f1c5d73c4c.json",
+  "parameterValues" : [ ]
+}

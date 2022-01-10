@@ -1,0 +1,1 @@
+{"uuid":"f8219d32-d0ca-42ac-b711-add13739c73f","name":"com.ss.ita.rozetka.test.SideModalMenuTest","children":["8d744cc7-7a0e-4867-a262-8ee6a8274d98"],"befores":[{"name":"setBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1639636011688,"stop":1639636012391}],"afters":[],"start":1639636011047,"stop":1639636915912}

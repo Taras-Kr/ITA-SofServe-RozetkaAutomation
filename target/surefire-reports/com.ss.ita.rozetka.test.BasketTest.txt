@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.ss.ita.rozetka.test.BasketTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 450.06 s <<< FAILURE! - in com.ss.ita.rozetka.test.BasketTest
+verifyAddProductFunctionality(com.ss.ita.rozetka.test.BasketTest)  Time elapsed: 251.121 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShouldNot: 
+Element should not have text "51998" {By.xpath: //div[@class='cart-receipt__sum-price']/span[1]}
+Element: '<span>51998</span>'
+Actual value: text="51998"
+Screenshot: file:/D:/taras.krasitskyi/IntelliJProjects/Lv-630-TAQC-Java-project/RozetkaAutomation/build/reports/tests/1639330302018.0.png
+Page source: file:/D:/taras.krasitskyi/IntelliJProjects/Lv-630-TAQC-Java-project/RozetkaAutomation/build/reports/tests/1639330302018.0.html
+Timeout: 120 s.
+	at com.ss.ita.rozetka.test.BasketTest.verifyAddProductFunctionality(BasketTest.java:100)
+

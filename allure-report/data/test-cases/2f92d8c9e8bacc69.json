@@ -1,0 +1,220 @@
+{
+  "uid" : "2f92d8c9e8bacc69",
+  "name" : "verifyThatCatalogOpensAndCloses",
+  "fullName" : "com.ss.ita.rozetka.test.CatalogModalTest.verifyThatCatalogOpensAndCloses",
+  "historyId" : "b7e6f604f6646e7118501dc294ad7e8",
+  "time" : {
+    "start" : 1639003029784,
+    "stop" : 1639003117319,
+    "duration" : 87535
+  },
+  "description" : "Verify that catalog opens and closes correctly",
+  "descriptionHtml" : "<p>Verify that catalog opens and closes correctly</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1639003029768,
+      "stop" : 1639003029768,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that catalog opens and closes correctly",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "HomePage: open Rozetka home page",
+      "time" : {
+        "start" : 1639003029784,
+        "stop" : 1639003072835,
+        "duration" : 43051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Header: open catalog modal",
+      "time" : {
+        "start" : 1639003072835,
+        "stop" : 1639003088231,
+        "duration" : 15396
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Header: get catalog modal visibility status",
+        "time" : {
+          "start" : 1639003072835,
+          "stop" : 1639003077769,
+          "duration" : 4934
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Header: get catalog modal visibility status",
+      "time" : {
+        "start" : 1639003097593,
+        "stop" : 1639003100739,
+        "duration" : 3146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Header: close catalog modal",
+      "time" : {
+        "start" : 1639003115239,
+        "stop" : 1639003117200,
+        "duration" : 1961
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Header: get catalog modal visibility status",
+        "time" : {
+          "start" : 1639003115239,
+          "stop" : 1639003115649,
+          "duration" : 410
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Header: get catalog modal visibility status",
+      "time" : {
+        "start" : 1639003117200,
+        "stop" : 1639003117318,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1639003117769,
+      "stop" : 1639003132432,
+      "duration" : 14663
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ss.ita.rozetka.test.CatalogModalTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ss.ita.rozetka.test.CatalogModalTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyThatCatalogOpensAndCloses"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Lv-630-TAQC-Java-RozetkaAutomation"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests Group"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ss.ita.rozetka.test.CatalogModalTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UK1UHLE"
+  }, {
+    "name" : "thread",
+    "value" : "9180@DESKTOP-UK1UHLE.TestNG-test=All Tests Group-2(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LVTAQC630-13",
+    "url" : "https://jira.softserve.academy/browse/LVTAQC630-13",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f92d8c9e8bacc69.json",
+  "parameterValues" : [ ]
+}

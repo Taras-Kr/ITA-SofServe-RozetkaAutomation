@@ -1,0 +1,298 @@
+{
+  "uid" : "63a442af580935b1",
+  "name" : "verifyAddProductFunctionality",
+  "fullName" : "com.ss.ita.rozetka.test.BasketTest.verifyAddProductFunctionality",
+  "historyId" : "8d839c22b6fceef14480e0bc0fcee480",
+  "time" : {
+    "start" : 1639003232482,
+    "stop" : 1639003313424,
+    "duration" : 80942
+  },
+  "description" : "verifies adding product by plus button in a cart",
+  "descriptionHtml" : "<p>verifies adding product by plus button in a cart</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1639002808806,
+      "stop" : 1639002809087,
+      "duration" : 281
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "verifies adding product by plus button in a cart",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "HomePage: open Rozetka home page",
+      "time" : {
+        "start" : 1639003232482,
+        "stop" : 1639003251337,
+        "duration" : 18855
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "HomePage: open category NOTEBOOKS_AND_COMPUTERS(computers-notebooks)",
+      "time" : {
+        "start" : 1639003251345,
+        "stop" : 1639003256400,
+        "duration" : 5055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "category",
+        "value" : "NOTEBOOKS_AND_COMPUTERS(computers-notebooks)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductCategoryPage: open product type page by category NOTEBOOKS_CATEGORY(c80004)",
+      "time" : {
+        "start" : 1639003256409,
+        "stop" : 1639003273573,
+        "duration" : 17164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "categoryOrSubCategory",
+        "value" : "NOTEBOOKS_CATEGORY(c80004)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductTypePage: open product page by product number 1",
+      "time" : {
+        "start" : 1639003273585,
+        "stop" : 1639003291297,
+        "duration" : 17712
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productNumber",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductPage: add product to basket",
+      "time" : {
+        "start" : 1639003291298,
+        "stop" : 1639003305498,
+        "duration" : 14200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: get products total price",
+      "time" : {
+        "start" : 1639003305498,
+        "stop" : 1639003309048,
+        "duration" : 3550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: increase amount on {numberOfProducts} product(s)",
+      "time" : {
+        "start" : 1639003309049,
+        "stop" : 1639003313211,
+        "duration" : 4162
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "BasketModal: get products total price",
+        "time" : {
+          "start" : 1639003310375,
+          "stop" : 1639003310475,
+          "duration" : 100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "BasketModal: waiting for price to change from 25999",
+        "time" : {
+          "start" : 1639003310476,
+          "stop" : 1639003313211,
+          "duration" : 2735
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "totalPriceBefore",
+          "value" : "25999"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productNumber",
+        "value" : "1"
+      }, {
+        "name" : "increaseNumber",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "BasketModal: get products total price",
+      "time" : {
+        "start" : 1639003313211,
+        "stop" : 1639003313310,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: get products total price",
+      "time" : {
+        "start" : 1639003313310,
+        "stop" : 1639003313422,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1639003313462,
+      "stop" : 1639003324154,
+      "duration" : 10692
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ss.ita.rozetka.test.BasketTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ss.ita.rozetka.test.BasketTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyAddProductFunctionality"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Lv-630-TAQC-Java-RozetkaAutomation"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests Group"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ss.ita.rozetka.test.BasketTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UK1UHLE"
+  }, {
+    "name" : "thread",
+    "value" : "9180@DESKTOP-UK1UHLE.TestNG-test=All Tests Group-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LVTAQC630-26",
+    "url" : "https://jira.softserve.academy/browse/LVTAQC630-26",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63a442af580935b1.json",
+  "parameterValues" : [ ]
+}

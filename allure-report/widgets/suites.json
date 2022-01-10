@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "3911b7019dab8826a17da653d422870b",
+    "name" : "Lv-630-TAQC-Java-RozetkaAutomation",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 1,
+      "total" : 20
+    }
+  } ]
+}

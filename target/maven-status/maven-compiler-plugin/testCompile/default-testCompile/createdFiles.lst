@@ -1,0 +1,15 @@
+com\ss\ita\rozetka\test\SortProductsListTest.class
+com\ss\ita\rozetka\test\BasketTest.class
+com\ss\ita\rozetka\test\NavigationTest.class
+com\ss\ita\rozetka\test\RecentlyViewedProductsTest.class
+com\ss\ita\rozetka\test\LoginModalTest.class
+com\ss\ita\rozetka\test\FilterFunctionalityTest.class
+com\ss\ita\rozetka\test\SearchFunctionalityTest.class
+com\ss\ita\rozetka\test\ProductPageWithProductTest.class
+com\ss\ita\rozetka\test\CatalogModalTest.class
+com\ss\ita\rozetka\test\ComparisonTest.class
+com\ss\ita\rozetka\test\OrderingProductsTest.class
+com\ss\ita\rozetka\test\LocalizationTest.class
+com\ss\ita\rozetka\test\SideModalMenuTest.class
+com\ss\ita\rozetka\test\BuyProductTest.class
+com\ss\ita\rozetka\test\ProductTypePageTest.class

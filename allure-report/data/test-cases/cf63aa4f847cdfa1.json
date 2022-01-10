@@ -1,0 +1,177 @@
+{
+  "uid" : "cf63aa4f847cdfa1",
+  "name" : "verifyUserCanChangeLanguage",
+  "fullName" : "com.ss.ita.rozetka.test.LocalizationTest.verifyUserCanChangeLanguage",
+  "historyId" : "4ae583c228245d235007face7c3d8584",
+  "time" : {
+    "start" : 1639003324295,
+    "stop" : 1639003376144,
+    "duration" : 51849
+  },
+  "description" : "Verify that user can change language",
+  "descriptionHtml" : "<p>Verify that user can change language</p>\n",
+  "status" : "failed",
+  "statusMessage" : "[Language should be changed] \r\nExpecting actual:\r\n  \"Ласкаво просимо!\"\r\nto contain:\r\n  \"Р›Р°СЃРєР°РІРѕ РїСЂРѕСЃРёРјРѕ!\" ",
+  "statusTrace" : "java.lang.AssertionError: [Language should be changed] \r\nExpecting actual:\r\n  \"Ласкаво просимо!\"\r\nto contain:\r\n  \"Р›Р°СЃРєР°РІРѕ РїСЂРѕСЃРёРјРѕ!\" \r\n\tat com.ss.ita.rozetka.test.LocalizationTest.verifyUserCanChangeLanguage(LocalizationTest.java:25)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1639003324223,
+      "stop" : 1639003324223,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can change language",
+    "status" : "failed",
+    "statusMessage" : "[Language should be changed] \r\nExpecting actual:\r\n  \"Ласкаво просимо!\"\r\nto contain:\r\n  \"Р›Р°СЃРєР°РІРѕ РїСЂРѕСЃРёРјРѕ!\" ",
+    "statusTrace" : "java.lang.AssertionError: [Language should be changed] \r\nExpecting actual:\r\n  \"Ласкаво просимо!\"\r\nto contain:\r\n  \"Р›Р°СЃРєР°РІРѕ РїСЂРѕСЃРёРјРѕ!\" \r\n\tat com.ss.ita.rozetka.test.LocalizationTest.verifyUserCanChangeLanguage(LocalizationTest.java:25)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n",
+    "steps" : [ {
+      "name" : "HomePage: open Rozetka home page",
+      "time" : {
+        "start" : 1639003324303,
+        "stop" : 1639003356707,
+        "duration" : 32404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Header: change language to UA",
+      "time" : {
+        "start" : 1639003356711,
+        "stop" : 1639003369814,
+        "duration" : 13103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "language",
+        "value" : "UA"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "HomePage: get greetings text",
+      "time" : {
+        "start" : 1639003369814,
+        "stop" : 1639003372800,
+        "duration" : 2986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "786e78d9ca6538ed",
+      "name" : "pageScreenshot",
+      "source" : "786e78d9ca6538ed.png",
+      "type" : "image/png",
+      "size" : 685283
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1639003376148,
+      "stop" : 1639003386630,
+      "duration" : 10482
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ss.ita.rozetka.test.LocalizationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ss.ita.rozetka.test.LocalizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUserCanChangeLanguage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Lv-630-TAQC-Java-RozetkaAutomation"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests Group"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ss.ita.rozetka.test.LocalizationTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UK1UHLE"
+  }, {
+    "name" : "thread",
+    "value" : "9180@DESKTOP-UK1UHLE.TestNG-test=All Tests Group-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LVTAQC630-9",
+    "url" : "https://jira.softserve.academy/browse/LVTAQC630-9",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cf63aa4f847cdfa1.json",
+  "parameterValues" : [ ]
+}

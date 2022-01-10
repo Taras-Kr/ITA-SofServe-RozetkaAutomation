@@ -1,0 +1,379 @@
+{
+  "uid" : "651a14576faaf4bc",
+  "name" : "verifyChangingProductCountAndRemovingFromBasket",
+  "fullName" : "com.ss.ita.rozetka.test.BasketTest.verifyChangingProductCountAndRemovingFromBasket",
+  "historyId" : "af7d9afbcdbdbdcb919768ca6e5e2266",
+  "time" : {
+    "start" : 1639002809228,
+    "stop" : 1639003007130,
+    "duration" : 197902
+  },
+  "description" : "Verify that user can change count of product in basket and remove it from there",
+  "descriptionHtml" : "<p>Verify that user can change count of product in basket and remove it from there</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setBrowser",
+    "time" : {
+      "start" : 1639002808806,
+      "stop" : 1639002809087,
+      "duration" : 281
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can change count of product in basket and remove it from there",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "HomePage: open Rozetka home page",
+      "time" : {
+        "start" : 1639002810072,
+        "stop" : 1639002893112,
+        "duration" : 83040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "HomePage: open category NOTEBOOKS_AND_COMPUTERS(computers-notebooks)",
+      "time" : {
+        "start" : 1639002893116,
+        "stop" : 1639002899520,
+        "duration" : 6404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "category",
+        "value" : "NOTEBOOKS_AND_COMPUTERS(computers-notebooks)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductCategoryPage: open product type page by category NOTEBOOKS_CATEGORY(c80004)",
+      "time" : {
+        "start" : 1639002899532,
+        "stop" : 1639002941183,
+        "duration" : 41651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "categoryOrSubCategory",
+        "value" : "NOTEBOOKS_CATEGORY(c80004)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductTypePage: open product page by product number 1",
+      "time" : {
+        "start" : 1639002941186,
+        "stop" : 1639002967264,
+        "duration" : 26078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productNumber",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "ProductPage: add product to basket",
+      "time" : {
+        "start" : 1639002967264,
+        "stop" : 1639002988296,
+        "duration" : 21032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: get the basket emptiness status",
+      "time" : {
+        "start" : 1639002988300,
+        "stop" : 1639002988916,
+        "duration" : 616
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: get product titles",
+      "time" : {
+        "start" : 1639002988920,
+        "stop" : 1639002994369,
+        "duration" : 5449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: get products total price",
+      "time" : {
+        "start" : 1639002994369,
+        "stop" : 1639002995121,
+        "duration" : 752
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: set count for product with title Ноутбук Acer Aspire 7 A715-75G-56AA (NH.Q99EU.009) Charcoal Black to 3",
+      "time" : {
+        "start" : 1639002995125,
+        "stop" : 1639003001705,
+        "duration" : 6580
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "BasketModal: get products total price",
+        "time" : {
+          "start" : 1639002995125,
+          "stop" : 1639002995317,
+          "duration" : 192
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "BasketModal: waiting for price to change from 25999",
+        "time" : {
+          "start" : 1639002996752,
+          "stop" : 1639003001705,
+          "duration" : 4953
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "totalPriceBefore",
+          "value" : "25999"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productTitle",
+        "value" : "Ноутбук Acer Aspire 7 A715-75G-56AA (NH.Q99EU.009) Charcoal Black"
+      }, {
+        "name" : "count",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "BasketModal: get products total price",
+      "time" : {
+        "start" : 1639003001705,
+        "stop" : 1639003001938,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "BasketModal: remove product with title Ноутбук Acer Aspire 7 A715-75G-56AA (NH.Q99EU.009) Charcoal Black",
+      "time" : {
+        "start" : 1639003001995,
+        "stop" : 1639003006356,
+        "duration" : 4361
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "BasketModal: get products total price",
+        "time" : {
+          "start" : 1639003001995,
+          "stop" : 1639003002350,
+          "duration" : 355
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "BasketModal: waiting for price to change from 77997",
+        "time" : {
+          "start" : 1639003006096,
+          "stop" : 1639003006356,
+          "duration" : 260
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "totalPriceBefore",
+          "value" : "77997"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productTitle",
+        "value" : "Ноутбук Acer Aspire 7 A715-75G-56AA (NH.Q99EU.009) Charcoal Black"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "BasketModal: get the basket emptiness status",
+      "time" : {
+        "start" : 1639003006356,
+        "stop" : 1639003006773,
+        "duration" : 417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1639003007594,
+      "stop" : 1639003027349,
+      "duration" : 19755
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ss.ita.rozetka.test.BasketTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ss.ita.rozetka.test.BasketTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyChangingProductCountAndRemovingFromBasket"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Lv-630-TAQC-Java-RozetkaAutomation"
+  }, {
+    "name" : "suite",
+    "value" : "All Tests Group"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ss.ita.rozetka.test.BasketTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UK1UHLE"
+  }, {
+    "name" : "thread",
+    "value" : "9180@DESKTOP-UK1UHLE.TestNG-test=All Tests Group-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LVTAQC630-34",
+    "url" : "https://jira.softserve.academy/browse/LVTAQC630-34",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "651a14576faaf4bc.json",
+  "parameterValues" : [ ]
+}

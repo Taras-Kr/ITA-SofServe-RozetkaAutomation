@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="vkostyra-tests" verbose="1" parallel="classes" thread-count="2">
+    <test name="kostyra-tests">
+        <classes>
+            <class name="com.ss.ita.rozetka.test.BasketTest">
+                <methods>
+                    <include name="verifyChangingProductCountAndRemovingFromBasket"/>
+                    <include name="verifyTotalPriceOfTwoProductsIsCorrect"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

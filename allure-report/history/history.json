@@ -1,0 +1,388 @@
+{
+  "af7d9afbcdbdbdcb919768ca6e5e2266" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "651a14576faaf4bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639002809228,
+        "stop" : 1639003007130,
+        "duration" : 197902
+      }
+    } ]
+  },
+  "4ae583c228245d235007face7c3d8584" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf63aa4f847cdfa1",
+      "status" : "failed",
+      "statusDetails" : "[Language should be changed] \r\nExpecting actual:\r\n  \"Ласкаво просимо!\"\r\nto contain:\r\n  \"Р›Р°СЃРєР°РІРѕ РїСЂРѕСЃРёРјРѕ!\" ",
+      "time" : {
+        "start" : 1639003324295,
+        "stop" : 1639003376144,
+        "duration" : 51849
+      }
+    } ]
+  },
+  "4e915cebd1bcd8724a88e9766a2268bd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1df402a0fa9acbe",
+      "status" : "failed",
+      "statusDetails" : "[Home page should be opened] \r\nexpected: \"https://rozetka.com.ua/\"\r\n but was: \"https://bt.rozetka.com.ua/tehnika-dlya-kuhni/c435974/\"",
+      "time" : {
+        "start" : 1639003439158,
+        "stop" : 1639003511265,
+        "duration" : 72107
+      }
+    } ]
+  },
+  "26b89113b4956171c608875c99a9cf84" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11872d07b80f606c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003606795,
+        "stop" : 1639003676743,
+        "duration" : 69948
+      }
+    } ]
+  },
+  "cf14e7d45faa6684ed7dead00220a66e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d187f8254d69d0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003313486,
+        "stop" : 1639003462647,
+        "duration" : 149161
+      }
+    } ]
+  },
+  "928277e9c1459f6c342aafc38bcce4e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16d146d46cb91e6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003478141,
+        "stop" : 1639003593377,
+        "duration" : 115236
+      }
+    } ]
+  },
+  "3265b4b83f1662bbc3b67689ce785680" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dae69bea277e2f25",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1639002808134,
+        "stop" : 1639002808150,
+        "duration" : 16
+      }
+    } ]
+  },
+  "b5ae8b7c8f889bbc5dc00e6cfb076aed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a835298ef8ad516b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003800221,
+        "stop" : 1639003849214,
+        "duration" : 48993
+      }
+    } ]
+  },
+  "8d839c22b6fceef14480e0bc0fcee480" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63a442af580935b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003232482,
+        "stop" : 1639003313424,
+        "duration" : 80942
+      }
+    } ]
+  },
+  "d26b7ac5848cb33478d86d8fce7f8f7d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c64f41812aaf9949",
+      "status" : "failed",
+      "statusDetails" : "TimeoutException: TimedPromise timed out after 120000 ms\r\nScreenshot: file:/D:/taras.krasitskyi/IntelliJProjects/Lv-630-TAQC-Java-project/RozetkaAutomation/build/reports/tests/1639003225911.0.png\r\nPage source: file:/D:/taras.krasitskyi/IntelliJProjects/Lv-630-TAQC-Java-project/RozetkaAutomation/build/reports/tests/1639003225911.0.html\r\nTimeout: 120 s.\r\nCaused by: TimeoutException: TimedPromise timed out after 120000 ms",
+      "time" : {
+        "start" : 1639003027489,
+        "stop" : 1639003228407,
+        "duration" : 200918
+      }
+    } ]
+  },
+  "b7e6f604f6646e7118501dc294ad7e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f92d8c9e8bacc69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003029784,
+        "stop" : 1639003117319,
+        "duration" : 87535
+      }
+    } ]
+  },
+  "2ae934138935949de03ba191e2b12b56" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b0e48b0dce475dc",
+      "status" : "failed",
+      "statusDetails" : "[Select sorting type should be displayed] \r\nExpecting value to be true but was false",
+      "time" : {
+        "start" : 1639003870638,
+        "stop" : 1639003925999,
+        "duration" : 55361
+      }
+    } ]
+  },
+  "5a1208d3ae0ef7c5a66ee88cc243e0e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d47b51f1c5d73c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639002809212,
+        "stop" : 1639003022927,
+        "duration" : 213715
+      }
+    } ]
+  },
+  "d69179d250c893f259c4501f902126cd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afaa8a0d6c04a943",
+      "status" : "failed",
+      "statusDetails" : "[First product name in Recently Opened products should be equal to last viewed product name] \r\nexpected: \"Мясорубка BOSCH MFW3640A\"\r\n but was: \"Набор Spell для нее 500 г (7500000311029)\"",
+      "time" : {
+        "start" : 1639003667990,
+        "stop" : 1639003785565,
+        "duration" : 117575
+      }
+    } ]
+  },
+  "c34365374dc8a961a4e6924105a88ea3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25d6d6a41403a4ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003797902,
+        "stop" : 1639003860282,
+        "duration" : 62380
+      }
+    } ]
+  },
+  "82ada700e0c0fc80ac33734824aca53a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3101b1737f709f55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003858394,
+        "stop" : 1639003969204,
+        "duration" : 110810
+      }
+    } ]
+  },
+  "9c20633c8c76f6661b404faf53aaaa6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f6277b10543e503",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003697310,
+        "stop" : 1639003789995,
+        "duration" : 92685
+      }
+    } ]
+  },
+  "7814cc15ab317bff1da8774f68a72247" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fce167d5a5849a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003386650,
+        "stop" : 1639003439110,
+        "duration" : 52460
+      }
+    } ]
+  },
+  "3525920dea6596cb6d456dd900f4714d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b047e32100f16126",
+      "status" : "failed",
+      "statusDetails" : "TimeoutException: TimedPromise timed out after 120000 ms\r\nScreenshot: file:/D:/taras.krasitskyi/IntelliJProjects/Lv-630-TAQC-Java-project/RozetkaAutomation/build/reports/tests/1639003297652.1.png\r\nPage source: file:/D:/taras.krasitskyi/IntelliJProjects/Lv-630-TAQC-Java-project/RozetkaAutomation/build/reports/tests/1639003297652.1.html\r\nTimeout: 120 s.\r\nCaused by: TimeoutException: TimedPromise timed out after 120000 ms",
+      "time" : {
+        "start" : 1639003132445,
+        "stop" : 1639003300115,
+        "duration" : 167670
+      }
+    } ]
+  },
+  "4f9023ef1d214c72be30f7b416371d09" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe230bb0c5f333f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639003529827,
+        "stop" : 1639003649911,
+        "duration" : 120084
+      }
+    } ]
+  }
+}
