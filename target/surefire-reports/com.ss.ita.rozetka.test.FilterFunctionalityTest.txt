@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.ss.ita.rozetka.test.FilterFunctionalityTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 201.825 s - in com.ss.ita.rozetka.test.FilterFunctionalityTest
