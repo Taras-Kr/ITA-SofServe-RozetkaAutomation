@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rozetka regression suite" parallel="classes" thread-count="2">
+    <test verbose="2" preserve-order="true"
+          name="All Tests Group">
+        <classes>
+            <class name="com.ss.ita.rozetka.test.BasketTest">
+                <methods>
+                    <include name="verifyChangingProductCountAndRemovingFromBasket"/>
+                    <include name="verifyTotalPriceOfTwoProductsIsCorrect"/>
+                    <include name="verifyAddProductFunctionality"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.BuyProductTest">
+                <methods>
+                    <include name="verifyUserCantBuyProductWithInvalidData"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.CatalogModalTest">
+                <methods>
+                    <include name="verifyThatCatalogOpensAndCloses"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.ComparisonTest">
+                <methods>
+                    <include name="verifyAddingProductToComparison"/>
+                    <include name="verifyAddingProductsFromComparisonPage"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.FilterFunctionalityTest">
+                <methods>
+                    <include name="verifyUserCanFilterProducts"/>
+                    <include name="verifyThatPriceFilterIsCorrect"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.FilterTest">
+                <methods>
+                    <include name="verifyFilteredProductsAmountIsCorrect"/>
+                    <include name="verifyOptionsAmountDecreasingAfterFilterSelecting"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.LocalizationTest">
+                <methods>
+                    <include name="verifyUserCanChangeLanguage"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.LoginModalTest">
+                <methods>
+                    <include name="verifyLoginValidationTest"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.NavigationTest">
+                <methods>
+                    <include name="verifyReturnToHomePage"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.OrderingProductsTest">
+                <methods>
+                    <include name="verifyOrderingProducts"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.ProductPageWithProductTest">
+                <methods>
+                    <include name="verifyThatProductInformationIsSimilar"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.ProductTypePageTest">
+                <methods>
+                    <include name="verifyThatProductsArePresentedInNotebookCategory"/>
+                    <include name="verifyThatProductsArePresentedInTVAccessoriesCategory"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.RecentlyViewedProductsTest">
+                <methods>
+                    <include name="verifyLastViewedProductAddedToTheList"/>
+                    <include name="verifyProductAddedOnlyOnce"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.SearchFunctionalityTest">
+                <methods>
+                    <include name="verifyXiaomiWillBeInSearchResult"/>
+                    <include name="verifySearchHistoryText"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.SideModalMenuTest">
+                <methods>
+                    <include name="verifySideMenuModalOpensAndCloses"/>
+                    <include name="verifyChangingTown"/>
+                </methods>
+            </class>
+            <class name="com.ss.ita.rozetka.test.SortProductsListTest">
+                <methods>
+                    <include name="verifyCheapToExpensiveSorting"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
