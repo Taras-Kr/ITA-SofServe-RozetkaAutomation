@@ -12,7 +12,7 @@ public class SideMenuModal {
 
     @Step("SideMenuModal: close side menu  modal")
     public Header closeSideMenuModal() {
-        $x("//button[@class='side-menu__close']").click();
+        $x("//button[contains (@class, 'side-menu__close')]").click();
         $x("//nav[@class='drawer ng-star-inserted']").shouldNotBe(Condition.visible);
         return new Header();
     }

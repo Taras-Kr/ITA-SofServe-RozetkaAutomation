@@ -55,7 +55,7 @@ public class Header {
 
     @Step("Header: open side menu modal")
     public SideMenuModal openSideMenuModal() {
-        $x("//button[@class='header__button']").click();
+        $x("//button[@class='header__button ng-tns-c107-1']").click();
         return new SideMenuModal();
     }
 
