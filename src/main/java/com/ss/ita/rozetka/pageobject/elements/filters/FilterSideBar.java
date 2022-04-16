@@ -87,11 +87,13 @@ public class FilterSideBar {
         private final String filterContainerXpath;
 
         private SelenideElement getOptionCheckBox(String optionName) {
-            return $x(format(filterContainerXpath + "//input[@id='%s']", optionName));
+            return $x(format(filterContainerXpath + "//a[@data-id='%s']", optionName));
         }
 
         private SelenideElement getOptionCheckBoxLink(String optionName) {
-            return $x(format(filterContainerXpath + "//input[@id='%s']/parent::a", optionName));
+           //return $x(format(filterContainerXpath + "//input[@id='%s']/parent::a", optionName));
+            return $x(format(filterContainerXpath + "//a[@data-id='%s']", optionName));
+
         }
 
         private SelenideElement getSearchField() {
@@ -141,7 +143,7 @@ public class FilterSideBar {
             optionCheckBox.shouldNotBe(checked);
             getOptionCheckBoxLink(optionName).scrollIntoView(false).click();
 
-            optionCheckBox.shouldBe(checked);
+          //  optionCheckBox.shouldBe(checked);
             return this;
         }
 
@@ -152,13 +154,16 @@ public class FilterSideBar {
             optionCheckBox.shouldBe(checked);
             getOptionCheckBoxLink(optionName).scrollIntoView(false).click();
 
-            optionCheckBox.shouldNotBe(checked);
+           // optionCheckBox.shouldNotBe(checked);
             return this;
         }
 
         @Step("Filter: get selection status of option with name {optionName}")
         public boolean isOptionSelected(String optionName) {
-            return getOptionCheckBox(optionName).isSelected();
+            SelenideElement optionCheckBox = getOptionCheckBox(optionName);
+            String classOptionCheckBox = optionCheckBox.getAttribute("class");
+
+            return classOptionCheckBox.contains("checked");
         }
 
         @Step("Filter: get quantity of options in filter")
