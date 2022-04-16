@@ -68,7 +68,7 @@ public class SearchFunctionalityTest extends TestRunner {
                 .getHeader()
                 .changeLanguage(UA)
                 .openHomePage();
-        var searchTermsList = Arrays.asList("Dell", "HP", "IPhone", "Stihl");
+        var searchTermsList = Arrays.asList("Dell", "HP", "IPhone");
         var softAssert = new SoftAssertions();
         ProductTypePage searchResultPage;
         var header = homePage.getHeader();
